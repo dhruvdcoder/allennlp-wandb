@@ -7,7 +7,7 @@ import torch
 
 from allennlp.common.from_params import FromParams
 from allennlp.models.model import Model
-from models import TensorBoardLoggable
+from ..models import TensorBoardLoggable
 logger = logging.getLogger(__name__)
 
 
