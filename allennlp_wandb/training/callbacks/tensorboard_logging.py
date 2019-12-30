@@ -1,5 +1,5 @@
 # These should probably all live in separate files
-from models.training.tensorboard_writer import TensorboardWriter
+from ..tensorboard_writer import TensorboardWriter
 from allennlp.training.callbacks.events import Events
 from allennlp.training.callbacks.callback import Callback, handle_event
 from allennlp.common.params import Params
